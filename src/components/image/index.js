@@ -205,7 +205,7 @@ class Index extends Component {
                             <tr key={_id}>
                               <td>{index+1}</td>
                               <td>
-                                <img height="100px" width="100px" src={`http://localhost:3001/images/${temp.path}`} alt="Not available" />
+                                <img height="100px" width="100px" src={`http://52.15.182.195:3001/images/${temp.path}`} alt="Not available" />
                               </td>
                               <td>
                                 <button onClick={this.deleteImage.bind(this,_id)}> Delete </button>

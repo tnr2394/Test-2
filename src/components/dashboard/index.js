@@ -195,7 +195,7 @@ class Index extends Component {
               />
             </fieldset>
             <fieldset>
-              <button name="submit" type="submit" id="contact-submit"> Login </button>
+              <button name="submit" type="submit" id="contact-submit"> Add New Project </button>
             </fieldset>
           </form>
           

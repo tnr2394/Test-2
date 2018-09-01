@@ -10,11 +10,6 @@ import Image from './components/image/index';
 import SubGroup from './components/sub-group/index';
 import NoMatch from './components/404/index';
 
-const checkAuth = () => {
-    alert("hello");
-    console.log("Inside the checkAuth");
-}
-
 ReactDOM.render((
     <Router>
         <Switch>
